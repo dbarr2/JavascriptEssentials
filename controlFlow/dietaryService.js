@@ -26,4 +26,4 @@ switch(person) {
 
 
 console.log("According to our records you are a ",person, "and your access level is ", accessLevel)
-let dieticianString = dieticianAccess == true ? "You have access to one-on-one dietician resources" : "You do not have access to the dietician"
+let dieticianString = dieticianAccess == true ? console.log("You have access to one-on-one dietician resources") : console.log("You do not have access to the dietician")
